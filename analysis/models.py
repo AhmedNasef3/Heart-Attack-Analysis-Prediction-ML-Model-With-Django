@@ -56,7 +56,7 @@ class Patient(models.Model):
     fbs=models.CharField(max_length=5,choices=FBS_TYPE,help_text='fasting blood sugar > 120 mg/dl')
     rest_ecg=models.CharField(max_length=65,choices=REST_ECG_TYPE,help_text='resting electrocardiographic results')
     thalach=models.IntegerField(help_text='maximum heart rate achieved')
-    target=models.CharField(max_length=5,choices=TARGET_TYPE)
+    target=models.CharField(max_length=5,choices=TARGET_TYPE,null=True,blank=True)
 
     def __str__(self):
-        return self.age
+         return f"Patient Age: {self.age}"
