@@ -1,4 +1,4 @@
-## Heart-Attack-Analysis-Prediction-ML-Model-With-Django
+## Heart-Attack-Analysis-Prediction-ML-Model-With-Django.
 
 ![Screenshot (74)](https://github.com/user-attachments/assets/4b0c7db3-f2a9-44ac-8638-f18a178967ff)
 ![Screenshot (75)](https://github.com/user-attachments/assets/d8d8baee-00a5-4f2d-8633-c4c6b2f44aba)
